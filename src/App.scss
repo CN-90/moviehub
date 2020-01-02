@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 101vh;
+  margin-left: 187px;
+  position: relative;
+  // background: url('./assets/poster_background.jpg');
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 0px;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #0a0a0a;
+  font-family: 'Montserrat';
+  height: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
+/* colors */
+
+.yellow {
+  color: #fff822;
+}
+
+.gold {
+  color: gold;
+}
+
+.gray {
+  color: #7a7a7a;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #646464;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222;
+}
